@@ -8,8 +8,8 @@ if __name__ == '__main__':
 
     while i <= 3:
         i += 1    
-        if ( i % 2) != 0: continue 
-        nSum += i 
+        if ( i % 2) != 0: 
+            nSum += i 
     else:
         print('--- else ---')
 
