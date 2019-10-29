@@ -1,11 +1,11 @@
 #!/home/wizard/anaconda3/bin/python
 
-class Point:
+class Point():
     # Конструктор на класа
     def __init__(self):
         print('Constructor Point')
-        self.x = 10
-        # x = 10
+        self.x = 10 # променлива на обекта
+        # x = 10    # локална променлива
         self.y = 5
 
 if __name__ == '__main__':
